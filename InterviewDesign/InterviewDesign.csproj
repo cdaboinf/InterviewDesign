@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AlgorithmDesign\" />
+    <None Remove="DesignPattern\" />
+    <None Remove="DesignPattern\DecoratorDesignPattern\" />
+    <None Remove="DesignPattern\ObserverDesignPattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AlgorithmDesign\" />
+    <Folder Include="DesignPattern\" />
+    <Folder Include="DesignPattern\DecoratorDesignPattern\" />
+    <Folder Include="DesignPattern\ObserverDesignPattern\" />
+  </ItemGroup>
+</Project>
